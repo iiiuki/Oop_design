@@ -1,0 +1,4 @@
+DEPENDENCY INVERSION PRINCIPLE (DIP)
+(Nguyên lý đảo ngược sự phụ thuộc)
+    - Các module, class cấp cao (high-level) không nên phụ thuộc vào module, class cấp thấp hơn (low-level) mà nên phụ thuộc (giao tiếp) với nhau thông qua một abstraction (Interface).
+    - Abtraction không nên phụ thuộc vào chi tiết. Chi tiết nên phụ thuộc vào abtraction.

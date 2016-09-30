@@ -1,0 +1,4 @@
+OPEN/CLOSED PRINCIPLE
+
+Nguyên lý này đề cập đến việc một đối tượng phải luôn MỞ cho việc mở rộng, nhưng ĐÓNG trong việc thay đổi.
+Nghĩa là bạn phải làm thế nào để tránh được những thay đổi trong lớp khi có những sự thay đổi ở bên ngoài và vẫn phải đảm bảo tính linh hoạt để đáp ứng sự thay đổi đó.

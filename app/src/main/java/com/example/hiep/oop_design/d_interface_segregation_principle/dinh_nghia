@@ -1,0 +1,17 @@
+INTERFACE SEGREGATION PRINCIPLE (ISP)
+(Nguyên lý phân tách interface). Nó giúp giảm sự cồng kềnh, dư thừa không cần thiết cho phần mềm và quan trọng hơn là giảm sự kết dính làm hạn chế tính linh động (flexibility) của phần mềm.
+
+Nguyên lý phát biểu như sau:
+
+Không nên buộc các thực thể phần mềm phụ thuộc vào những interface mà chúng không sử dụng đến.
+
+Khi xây dựng một lớp đối tượng, đặc biệt là những lớp trừu tượng (abstract class), nhiều người thường có xu hướng để cho lớp đối tượng thực hiện càng nghiều chức năng càng tốt,
+đưa thật nhiều thuộc tính và phương thức vào lớp đối tượng đó. Những lớp đối tượng như vậy được gọi là những lớp đối tượng có interface bị “ô nhiễm” (polluted interface).
+
+Khi một lớp đối tượng có interface bị "ô nhiễm",
+nó sẽ trở nên cồng kềnh. Một thực thể phần mềm nào đó chỉ cần thực hiện một công việc đơn giản mà lớp đối tượng này hỗ trợ buộc phải làm việc với toàn bộ interface của lớp đối tượng đó.
+Đặc biệt đối với lớp trừu tượng có interface bị "ô nhiễm",
+một số lớp kế thừa chỉ quan tâm đến một phần interface của nó nhưng bị buộc phải thực hiện việc cài đặt cho cả phần interface không hề có ý nghĩa đối với chúng.
+Điều dẫn đến sự dư thừa không cần thiết trong các thực thể phần mềm. Quan trọng hơn nữa, việc buộc các lớp kế thừa phụ thuộc vào phần interface mà chúng không sử dụng đến sẽ làm tăng sự kết dính (coupling) giữa các thực thể phần mềm.
+Một khi sự nâng cấp, mở rộng diễn ra,
+đòi hỏi phần interface đó thay đổi, các lớp kế thừa này bị buộc phải chỉnh sửa. Điều này làm cho chúng vi phạm nguyên lý Open-Close.

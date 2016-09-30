@@ -1,0 +1,6 @@
+* 5 nguyên tắc cơ bản trong Thiết kế hướng đối tượng đó là :
+- Single responsibility principle (srp)
+- Open/closed principle
+- Liskov substitution principle
+- Interface segregation principle
+- Dependency inversion principle

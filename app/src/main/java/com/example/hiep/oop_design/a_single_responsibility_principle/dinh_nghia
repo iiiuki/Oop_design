@@ -1,0 +1,10 @@
+SRP đề cập đến việc một lớp chỉ nên đảm trách duy nhất một nhiệm vụ, chức năng duy nhất
+Nếu chúng ta gom nhiều chức năng cho một lớp, thì khi chúng ta thay đổi một chức năng nào đó, thì toàn bộ lớp đó phải thay đổi.
+Và khi có nhiều thay đổi, điều đó cũng có nghĩa là sẽ phát sinh ra nhiều vấn đề khác như lỗi, buộc ta phải test lại hết toàn bộ lớp đó.
+
+VD: Tạo 1 đối tượng radio
+Chức năng:
+    - bật
+    - tắt
+    - volume up
+    - volume down
