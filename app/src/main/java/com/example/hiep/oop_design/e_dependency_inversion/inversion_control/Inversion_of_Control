@@ -1,0 +1,12 @@
+Inversion of Control (IoC)
+
+IoC là một design pattern để hiện thực hóa hay implement nguyên lý thiết kế Dependency Inversion nêu trên.
+Dĩ nhiên, nó sẽ tuân thủ đầy đủ những nguyên tắc là Dependency Inversion phát biểu.
+Ngay cả cái tên của nó cũng gợi cho ta đôi chút về ý nghĩa của pattern này
+- sự đảo ngược điều khiển mà với Dependency Injection, bạn sẽ hiểu rõ hơn về khái niệm này.
+
+IoC sẽ không quan tâm đến việc Service được khởi tạo như thế nào mà chỉ quan tâm đến những gì mà nó cung cấp thông qua một abstraction.
+Điều này tuân thủ chặt chẽ nguyên lý của Dependency Inversion nêu trên,
+tức là các module high-level chỉ phụ thuộc hay giao tiếp với các module low-level thông qua một abstraction,
+và chính module high-level sẽ không cần biết module low-level sẽ được khởi tạo như thế nào mà chỉ cần biết những gì nó cung cấp.
+Phần này sẽ được nói chi tiết hơn ở Dependency Injection ở phần sau.
